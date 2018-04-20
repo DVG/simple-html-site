@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+
+rm pdfs/*.pdf
+cp backup-pdfs/*.pdf pdfs
+git add .
+git commit -m "Restoring pdfs"
+git push origin master
